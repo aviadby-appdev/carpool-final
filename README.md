@@ -1,8 +1,9 @@
-# Final Project
+# Carpool Board project - proof of concept 
 
-## Standard Workflow
+## Main features 
 
- 1. Set up the project: `bin/setup`
- 1. Start the web server by running `bin/server`.
- 1. Navigate to your live application.
- 1. As you work, remember to navigate to `/git` and **commit often as you work.**
+ 1. Users must sign up to be able to user the application
+ 1. Users can either post a new ride (aka be a ride "leader) or join existing rides posted by other users. The main page is searchable and can be sorted as to the user's preferences 
+ 1. Once a ride is full, an automated text message will be sent with the ride details. 
+ 1. Ride leader can decide to close a ride even if it's not full. In that case, a text message will be sent to current co-riders
+ 1. A ride leader can create a calendar invite for a specific ride 
